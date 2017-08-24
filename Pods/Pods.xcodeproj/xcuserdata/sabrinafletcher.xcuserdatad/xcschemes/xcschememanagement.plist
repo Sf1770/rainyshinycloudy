@@ -4,15 +4,29 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>rainyshinycloudy.xcscheme</key>
+		<key>Alamofire.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
+		</dict>
+		<key>Pods-rainyshinycloudy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>D67F29F51F4C8AE500260BBB</key>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D975706DDEC4DE29ECA578A2358A187A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
