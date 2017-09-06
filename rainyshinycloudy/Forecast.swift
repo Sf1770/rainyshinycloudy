@@ -48,13 +48,13 @@ class Forecast{
             if let min = temp["min"] as? Double{
                 let kToFPreDivide = (min * (9/5) - 459.67)
                 let currentTemp = Double(round(10 * kToFPreDivide/10))
-                self._lowTemp = "\(currentTemp)"
+                self._lowTemp = "\(currentTemp)˚"
             }
             
             if let max = temp["max"] as? Double{
                 let kToFPreDivide = (max * (9/5) - 459.67)
                 let currentTemp = Double(round(10 * kToFPreDivide/10))
-                self._highTemp = "\(currentTemp)"
+                self._highTemp = "\(currentTemp)˚"
             }
         }
         

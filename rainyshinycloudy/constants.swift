@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Alamofire
+
 
 let WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather?"
 let LATITUDE = "lat="
@@ -19,7 +19,7 @@ let DAY_COUNT = "&cnt=10"
 
 typealias  DownloadComplete = () -> ()
 
-let CURRENT_WEATHER_URL = "\(WEATHER_URL)\(LATITUDE)-33\(LONGITUDE)120\(APP_ID)\(API_KEY)"
-let FORECAST_URL = "\(FORECAST_BASE_URL)\(LATITUDE)-33\(LONGITUDE)120\(DAY_COUNT)\(APP_ID)\(API_KEY)"
+let CURRENT_WEATHER_URL = "\(WEATHER_URL)\(LATITUDE)\(Location.sharedInstance.latitude!)\(LONGITUDE)\(Location.sharedInstance.longitude!)\(APP_ID)\(API_KEY)"
+let FORECAST_URL = "\(FORECAST_BASE_URL)\(LATITUDE)\(Location.sharedInstance.latitude!)\(LONGITUDE)\(Location.sharedInstance.longitude!)\(DAY_COUNT)\(APP_ID)\(API_KEY)"
 
 
